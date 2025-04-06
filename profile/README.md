@@ -25,8 +25,6 @@ This project consists of **four microservice repositories**, spread across **two
 | **Model Inference**  | Deploys trained models to serve predictions via API. | [serverless-inference](https://github.com/goldrushproject/serverless-inference) |
 | **Data Assessment**  | Combines and evaluates model outputs for quality and accuracy. | [data-assess](https://github.com/goldrushproject/data-assess) |
 
-Each repo includes README documentation detailing deployment steps and service-specific logic.
-
 ---
 
 ## 📊 Client Dashboard
