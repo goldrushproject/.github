@@ -10,7 +10,7 @@
 🍿 Fun facts - what does your team eat for breakfast?
 🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 -->
-# 🧾 GoldRush Project Assessment Guide
+# 🧾 GoldRush Project Access Guide
 
 This project consists of **four microservice repositories**, spread across **two AWS accounts**, and is visualized through a **client dashboard on AWS QuickSight**.
 
@@ -29,31 +29,32 @@ This project consists of **four microservice repositories**, spread across **two
 
 ## 📊 Client Dashboard
 
-The dashboard aggregates the outputs from all services and is hosted on AWS QuickSight.
+The dashboard aggregates and visualizes the outputs from all services and is hosted on AWS QuickSight.
 
 🔗 **Dashboard URL:**  
-[GoldRush QuickSight Dashboard](https://us-west-2.quicksight.aws.amazon.com/sn/accounts/650251730947/dashboards/44fa45e2-8d5f-4843-95cc-4c22ba2978a5?directory_alias=GoldRushQuickSightBI)
-
-📌 **Note:** Log in using the provided **viewer account** to access the dashboard.
+[GoldRush QuickSight Dashboard](https://us-west-2.quicksight.aws.amazon.com/sn/dashboards/44fa45e2-8d5f-4843-95cc-4c22ba2978a5)
 
 ---
 
-## ✅ Assessment Instructions
+## 🔐 How to Access the Dashboard
 
-1. **Review Each Repository:**
-   - Confirm code quality and service separation.
-   - Ensure README explains deployment, environment setup, and key logic.
+To access the dashboard, use the following AWS IAM user credentials:
 
-2. **Check the Dashboard:**
-   - Validate that it displays:
-     - Extracted financial data.
-     - Model predictions.
-     - Summary/assessment metrics.
-   - Confirm data updates or refresh as expected.
+- **Account ID:** `650251730947`  
+- **IAM Username:** `quicksight-reader`  
+- **Password:** `Goldrushvisitor%`  
+- **AWS Console Login URL:** [https://650251730947.signin.aws.amazon.com/console](https://650251730947.signin.aws.amazon.com/console)
 
-3. **No Active Testing Required:**
-   - All services are live and integrated.
-   - The system's functionality can be assessed through dashboard insights.
+### Steps:
+
+1. Open the AWS Console login URL above.
+2. Enter:
+   - **IAM Username**: `quicksight-reader`
+   - **Password**: `Goldrushvisitor%`
+3. Once logged in, navigate to QuickSight (you can search for "QuickSight" in the AWS search bar).
+4. Open the dashboard directly via this link:  
+   [View Dashboard](https://us-west-2.quicksight.aws.amazon.com/sn/dashboards/44fa45e2-8d5f-4843-95cc-4c22ba2978a5)
+
+📌 **Note:** This account is view-only and intended for assessment purposes only.
 
 ---
-
